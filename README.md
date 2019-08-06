@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+A JavaScript library that can be used to create user interfaces. Creating components can require a writing a lot of repetitive lines of code to manipulate the DOM. React is more automated and it uses a virtual DOM. So it requires less lines of code to accomplish building the same components.
+
 - [ ] What does it mean to _think_ in react?
+
+It means instead of thinking in terms of imperative programming instead of declarative. React contains unique syntax and you have to learn to think in terms of React logic which is less intuitive and more bare-bones then Vanilla JS.
 
 - [ ] Describe state.
 
+State refers to data and the current representation of it.
+
 - [ ] Describe props.
 
+Props are the way you pass around data as attributes in your functions.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are anything that effects something outside of its own scope.
 
 ## Project Set Up
 
