@@ -34,7 +34,7 @@ const [people, setPeople] = useState([])
       <h1 className="Header">React Wars</h1>
       
         {people.map((object)=> { return (
-        <SWCard name={object.name} url={object.url} />
+        <SWCard name={object.name} birth_year={object.birth_year} gender={object.gender} />
          )
         })}
         
