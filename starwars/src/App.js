@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
+import SWCard from './SWCard'
 import './App.css';
 import axios from 'axios';
+
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
@@ -16,17 +18,28 @@ const [people, setPeople] = useState([])
   .then(dataObj => {
     console.log('data is here', dataObj)
     setPeople(dataObj.data.results)
-    
+
     console.log('people', people)
+    
   })
   .catch(error => {
     console.log('error message:', error)
   })
 }, [] )
+
+
   return (
-    <div className="App">
+    
+   <div className="App">
       <h1 className="Header">React Wars</h1>
+      
+        {people.map((object)=> { return (
+        <SWCard name={object.name} url={object.url} />
+         )
+        })}
+        
     </div>
+    
   );
 }
 

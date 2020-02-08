@@ -1,2 +1,17 @@
 import React, {useState, useEffect} from 'react';
-import './App.css';
+
+
+const SWCard = props => {
+
+
+return (
+  <div>
+    <p>
+      {props.name}
+      <img src={props.url}></img>
+      </p>
+  </div>
+)
+}
+
+export default SWCard
