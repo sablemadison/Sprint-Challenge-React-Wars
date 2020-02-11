@@ -8,13 +8,13 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency ReactJS Fundamentals and your command of the concepts and techniques in the Function Components and Class Components.
+You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency with ReactJS Fundamentals and your command of the concepts and techniques in the Functional Components.
 
 You have three hours to complete this challenge. Plan your time accordingly.
 
 ## Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your project manager.
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your Team Lead.
 
 ## Description
 
@@ -22,7 +22,7 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 ## Self-Study/Essay Questions
 
-Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
+Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
@@ -39,7 +39,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 Follow these steps to set up and work on your project:
 
 - [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
+- [ ] Add TL as collaborator on Github.
 - [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
 - [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
 - [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
@@ -53,7 +53,7 @@ Follow these steps for completing your project:
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request.
-- [ ] PM then will count the HW as done by merging the branch back into master.
+- [ ] TL then will count the HW as done by merging the branch back into master.
 
 
 ## Minimum Viable Product
@@ -64,8 +64,8 @@ Your finished project must include all of the following requirements:
 - [ ] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
 - [ ] Set the data you fetch to state.
 - [ ] Map over the list and render a component for each character on the page.
-- [ ] You must have at least one element for each star wars character in the data set.
-- [ ] The elements must be styled with either SemanticUI or styled-components - don't rely on browser default styles.
+- [ ] You must display at least one element for each star wars character in the data set.
+- [ ] The elements must be styled with either Reactstrap or styled-components - don't rely on browser default styles.
 
 #### Required best practices:
 
@@ -79,10 +79,7 @@ Your finished project must include all of the following requirements:
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
 ## Stretch Problems
-
-- [ ] Add at least one test using a testing tool:
-  - [react-testing-library](https://github.com/testing-library/react-testing-library#basic-example)
-  - [Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
+- [ ] Next week we will be looking at React forms. Look a head and try to create a search form that will filter through the data displayed from your characters. 
 
 - [ ] Build a pagination system that will allow you to load the next page of data.
   - `console.log()` the data coming back from the server.
